@@ -30,3 +30,8 @@ VALUES ('A110','Reacher','Jack','group1);
 select students.studentid, groups.classid 
 from students, groups
 where students.programgroup = groups.programgroup
+
+
+
+ALTER TABLE students
+DROP COLUMN term;
